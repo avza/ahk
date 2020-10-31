@@ -1,0 +1,37 @@
+{
+  "name": "akh",
+  "version": "1.0.0",
+  "description": "Another Knex Handler",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ./lib ./test --ext .js",
+    "lint:fix": "eslint ./lib ./test --ext .js --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avza/akh.git"
+  },
+  "keywords": [
+    "knex",
+    "handler",
+    "filter",
+    "order"
+  ],
+  "author": "Alisson V. de Souza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avza/akh/issues"
+  },
+  "homepage": "https://github.com/avza/akh#readme",
+  "devDependencies": {
+    "eslint": "^7.11.0",
+    "eslint-config-standard": "^15.0.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.2",
+    "jest": "^26.6.1",
+    "knex": "^0.21.6"
+  }
+}
