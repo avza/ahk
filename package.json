@@ -1,12 +1,12 @@
 {
-  "name": "akh",
+  "name": "ahk",
   "version": "1.0.0",
-  "description": "Another Knex Handler",
+  "description": "Another Handler Knex",
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "lint": "eslint ./lib ./test --ext .js",
-    "lint:fix": "eslint ./lib ./test --ext .js --fix"
+    "eslint": "eslint ./lib ./test --ext .js",
+    "eslint:fix": "eslint ./lib --ext .js --fix"
   },
   "repository": {
     "type": "git",

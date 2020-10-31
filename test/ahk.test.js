@@ -1,5 +1,5 @@
 const Knex = require('knex')({ client: 'sqlite3', useNullAsDefault: true })
-const Akh = require('../lib/akh')
+const Akh = require('../lib/ahk')
 
 describe('Akh Instance', () => {
   test('Should return error when the knex instance not found', () => {

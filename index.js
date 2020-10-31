@@ -1,1 +1,1 @@
-module.exports = require('./lib/akh')
+module.exports = require('./lib/ahk')
