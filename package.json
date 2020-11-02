@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "eslint": "eslint ./lib ./test --ext .js",
+    "eslint": "eslint ./lib --ext .js",
     "eslint:fix": "eslint ./lib --ext .js --fix"
   },
   "repository": {
