@@ -1,6 +1,6 @@
 {
   "name": "ahk",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Another Handler Knex",
   "main": "index.js",
   "scripts": {
